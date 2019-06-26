@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  background-image: url("https://rentpath-res.cloudinary.com/w_1290,h_886,t_rp,cs_tinysrgb,fl_force_strip,c_fill/e_unsharp_mask:50,q_auto/c3230c07a98f1a07e8d1643c6c8874c3");
+  background-size: cover;
+
+  /* background: -moz-linear-gradient(
+    45deg,
+    rgba(15, 213, 196, 0.6),
+    rgba(11, 61, 94, 0.69) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(15, 213, 196, 0.6),
+    rgba(11, 61, 94, 0.69) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(15, 213, 196, 0.6),
+    rgba(11, 61, 94, 0.69) 100% */
+  /* ); */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.loginBut {
+  background-color: #2cb3a1;
+}
+
+.registerBut {
+  background-color: #2cb3a1;
+}
+
+/* Not working */
+/* .backDrop {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+} */
+
+/* Code that came with the package */
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
